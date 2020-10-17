@@ -25,6 +25,9 @@ jobs:
             - ~/.npm
             - ~/.cache
       - run:
+          name: install dependency
+          command: yarn
+      - run:
           name: Running E2E tests with JUnit reporter
           command: yarn run cy:run
       - store_test_results:
