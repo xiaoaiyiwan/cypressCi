@@ -3,7 +3,7 @@
 	"cy:run":"cypress run",
 	"debug":"cypress open",
 	"start":"node server.js",
-	"ci:run":"cypress run --record --key 226c2a04-640a-411e-9385-e5c5f8fe6ee2"
+	"ci:run":"cypress run --record --key 0b73d454-a4d9-4b9e-a871-fc890afd5052 --parallel"
   },
   "license": "ISC",
   "devDependencies": {
