@@ -2,7 +2,8 @@
   "scripts": {
 	"cy:run":"cypress run",
 	"debug":"cypress open",
-	"start":"node server.js"
+	"start":"node server.js",
+	"ci:run":"cypress run --record --key 226c2a04-640a-411e-9385-e5c5f8fe6ee2"
   },
   "license": "ISC",
   "devDependencies": {
@@ -16,5 +17,5 @@
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.1.0",
     "start-server-and-test": "^1.11.5"
-  }
+  } 
 }
